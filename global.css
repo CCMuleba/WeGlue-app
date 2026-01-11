@@ -1,0 +1,12 @@
+/* global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can also add custom university branding colors here */
+@layer base {
+  :root {
+    --primary-indigo: #4F46E5;
+    --university-gold: #FFD700;
+  }
+}
